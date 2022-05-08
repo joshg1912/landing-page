@@ -1,28 +1,21 @@
 header {
     background-color: rgba(255, 230, 196, 0.61);
-    height: 70vh;
+    height: 80vh;
     width: 100%;
 }
 
 
-.col {
-    border: 2px solid red;
-}
-
-.row {
-    border: 2px solid blue;
-}
-
 .main-header {
-    border: 2px solid red;
-    width: 30%;
+    font-size: 420%;
 }
 
-.second-line {
-    border: 2px solid blue;
-    width: 25%;
+.profile-photo img {
+    height: 600px;
+    width: 400px;
 }
 
 .header-content {
-    justify-content: center;
+    width: 100%;
+    border: 2px solid red;
+    justify-content: end;
 }
