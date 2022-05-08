@@ -1,0 +1,28 @@
+header {
+    background-color: rgba(255, 230, 196, 0.61);
+    height: 70vh;
+    width: 100%;
+}
+
+
+.col {
+    border: 2px solid red;
+}
+
+.row {
+    border: 2px solid blue;
+}
+
+.main-header {
+    border: 2px solid red;
+    width: 30%;
+}
+
+.second-line {
+    border: 2px solid blue;
+    width: 25%;
+}
+
+.header-content {
+    justify-content: center;
+}

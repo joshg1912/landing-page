@@ -2,30 +2,29 @@
 <html>
 <head>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <style>
-
-        .col {
-            border: 2px solid red;
-        }
-.row {
-    border: 2px solid blue;
-}
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
+ 
 </head>
 
 <body>
-    <header>
-        <div class="nav-bar row">
-            <div class="col">
-                chirp.
-            </div>
-         <div class="col">
-             Home
-             Pricing
-             FAQ
-             <button class="btn btn-primary btn-lg"><img src="Assets/Twitter.svg"> in with Twitter</button>
-         </div>
+    <header class="px-5">
+    <div class ="row navbar">
+        <div class="col-8 logo">Chirp</div>
+        <div class="col links">
+            <nav><a class="px-3"> Pricing</a>
+                <a class="px-3">Home</a>
+                <a class="px-3">FAQ</a>
+                <button class="btn btn-primary px-3"><img src="Assets/Twitter.svg">Sign in with Twitter</button>
+            </nav>
+        </div>
+    </div>
+    <div class="row header-content">
+        <div class="col">
+    <h1 class="main-header">Twitter analytics</h1>
+    <h1 class="second-line">taken to a whole new level.</h1>
+    </div>
+    <div class="col"><img src="Assets/Hero Image (Desktop View).png" height="400" width="300"></div>
+    </div>
     </header>
 </body>
 </html>
