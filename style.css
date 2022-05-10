@@ -12,19 +12,27 @@ header {
 }
 
 .profile-photo img {
-    height: 600px;
-    width: 400px;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
 }
 
-.header-content {
-    max-width: 3000px;
+.header-content, .navbar {
     width: 100%;
-    border: 2px solid red;
 }
 
 
-
-.col {
-    border: 2px solid red;
+.links {
+    display: grid;
+    justify-content: end;
 }
 
+.profile-photo {
+    display: grid;
+    justify-content: center;
+}
+
+.links {
+    display: grid;
+    justify-content: center;
+}
