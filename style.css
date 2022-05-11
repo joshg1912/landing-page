@@ -12,15 +12,21 @@ header {
 }
 
 .profile-photo img {
-    height: 600px;
-    width: 400px;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
 }
 
+<<<<<<< HEAD
 .header-content, .col {
     max-width: 3000px;
     width: 100%;
     border: 2px solid red;
     
+=======
+.header-content, .navbar {
+    width: 100%;
+>>>>>>> cdefdd845922f8b1728b1c7f5b48f3a78560d4e3
 }
 
 
@@ -29,3 +35,15 @@ header {
     justify-content: end;
 }
 
+<<<<<<< HEAD
+=======
+.profile-photo {
+    display: grid;
+    justify-content: center;
+}
+
+.links {
+    display: grid;
+    justify-content: center;
+}
+>>>>>>> cdefdd845922f8b1728b1c7f5b48f3a78560d4e3
