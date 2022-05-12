@@ -17,6 +17,40 @@ header {
     width: 70%;
 }
 
+/* User Photos*/
+.item-1 {
+    position: relative;
+    right: 25px;
+}
+.item-2 {
+    position: relative;
+    right: 55px;
+}
+.item-3 {
+    position: relative;
+    right: 80px;
+}
+
+.item-4 {
+    position: relative;
+    right: 113px;
+}
+
+.item-5 {
+    position: relative;
+    right: 140px;
+}
+.item-6 {
+    position: relative;
+    right: 169px;
+}
+
+.item-7 {
+ position: relative;
+ right: 196px;
+}
+/**/
+
 .profile-photo img {
     height: 600px;
     width: 400px;
@@ -41,4 +75,22 @@ header {
 .links {
     display: grid;
     justify-content: center;
+}
+.em-number {
+    color:teal;
+    font-weight: bold;
+}
+
+.features {
+    height: 100vh;
+    padding: 100px;
+   
+}
+
+.column {
+    border: 1px solid black;
+}
+
+.grid {
+    column-gap: 50px;
 }
