@@ -1,32 +1,26 @@
+
 header {
    background-color: rgba(255, 230, 196, 0.61);
    height: 100vh;
-   padding-left: 100px;
-   padding-right: 100px;
+   padding-left: 150px;
+   padding-right: 150px;
    width: 100vw;
 }
 
 
 .main-header {
-    font-size: 400%;
+    font-size: 500%;
+    width: 79%;
 }
 
 .profile-photo img {
-    height: 700px;
-    width: 500px;
+    height: 600px;
+    width: 400px;
     border-radius: 20px;
 }
 
-<<<<<<< HEAD
-.header-content, .col {
-    max-width: 3000px;
-    width: 100%;
-    border: 2px solid red;
-    
-=======
 .header-content, .navbar {
     width: 100%;
->>>>>>> cdefdd845922f8b1728b1c7f5b48f3a78560d4e3
 }
 
 
@@ -35,8 +29,6 @@ header {
     justify-content: end;
 }
 
-<<<<<<< HEAD
-=======
 .profile-photo {
     display: grid;
     justify-content: center;
@@ -46,4 +38,3 @@ header {
     display: grid;
     justify-content: center;
 }
->>>>>>> cdefdd845922f8b1728b1c7f5b48f3a78560d4e3
