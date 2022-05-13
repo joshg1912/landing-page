@@ -106,3 +106,7 @@ header {
     padding-right: 150px;
     padding-left: 150px;
 }
+
+.user-cards-container {
+    background-color: lightblue;
+}
