@@ -82,7 +82,7 @@ header {
 }
 
 .features {
-    height: 100vh;
+    height: 70vh;
     padding-top: 70px;
     padding-right: 150px;
     padding-left: 150px;
@@ -100,4 +100,9 @@ header {
     margin-top: 1em;
     border-radius: 5px;
 
+}
+
+.testimonials {
+    padding-right: 150px;
+    padding-left: 150px;
 }
